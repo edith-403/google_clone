@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="./style.css"
+        rel="stylesheet"    
+    />
+    <title>Clon de Google</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <header>
+        <!-- navegacion -->
+        <nav class="menu_principal" aria-label="menu_principal">
+            <div>
+                <!-- target blank se abre en una nueva ventana -->
+                <a href="https://www.gmail.com" target="_blank">Gmail</a>
+                <a href="#">Images</a>    
+            </div>
+            <div class="apps">
+                <button>
+                    <span class="material-symbols-outlined">
+                        apps
+                    </span>
+                </button> 
+            </div>
+            <div class="profile">
+                <button>
+                    <span class="material-symbols-outlined md-44">
+                        account_circle
+                    </span>
+                </button> 
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- logo -->
+        <img class="logo" src="data:image/png;base64,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"
+        alt="logo de Google"/>
+        <!-- Inicio de busqueda -->
+        <form class= "busqueda">
+            <div class="lupa">
+                <label for="search">
+                    <span class="material-symbols-outlined">
+                        search
+                     </span>
+                     <input id="search" type="search" name="search"/>
+                </label>
+            </div>
+            <div class="mic_and_image">    
+                <button id="mic">
+                    <span class="material-symbols-outlined">
+                        mic
+                    </span>
+                </button>
+                <button id="image_search">
+                    <span class="material-symbols-outlined">
+                        image_search
+                    </span>
+                </button>
+            </div>        
+        </form>
+        <div class="acciones">
+            <button id="GS">Google Search</button>
+            <button id="IFL">I'm Feeling Lucky</button>
+        </div>
+        <!-- fin de busqueda-->
+    </main>
+    <footer>
+        <!-- pais -->
+        <div>
+            <h5>México</h5>
+        </div>
+        <div class="last-section">
+            <!-- menu 1 -->
+            <nav aria-label="menu_nosotros">
+                <a href="">About</a>
+                <a href="">Advertising</a>
+                <a href="">Business</a>
+                <a href="">How Search works</a>
+            </nav>            
+            <!-- menu 2 -->
+            <nav aria-label="menu_terminos_condiciones">
+                <a href="">Privacy</a>
+                <a href="">terms</a>
+                <a href="">Settings</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>

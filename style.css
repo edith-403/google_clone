@@ -1,0 +1,209 @@
+body, html {
+    font-family:"Google Sans Display",Roboto,Arial,sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:before, *:after {
+    box-sizing: inherit;
+}
+
+header {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu_principal {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+    margin: 15px;
+    position: fixed;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    font-size: 13px;
+
+}
+nav div button {
+    display: flex;
+    margin-left: 20px;
+}
+
+nav div button:hover {
+    background-color: rgb(232,232,232);
+    height: auto;
+    width: auto;
+    border-radius: 999px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+body {
+    display: flex;
+    overflow: hidden;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    height: 6.5rem;
+    width: 20rem;
+}
+
+.busqueda {
+    display: flex;
+    width: 75vw;
+    height: 30px;
+    align-items: center;
+    border: 1px solid rgb(219, 219, 219);
+    padding: 10px 20px;
+    border-radius: 999px;
+    margin: 0 auto;
+    margin-top: 25px;
+    max-width: 560px;
+    background-color: transparent;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+.busqueda:hover {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.busqueda label {
+    display: flex;
+    padding: 8px 4px;
+    font-size: 18px;
+    width: 100%;
+}
+
+.busqueda input{
+    flex: 1;
+    padding: 4px;
+    border: transparent;
+    background-color: transparent;
+    outline: none;
+    width: 100%;
+}
+
+button {
+    flex: 1;
+    border: transparent;
+    background-color: transparent;
+    padding: 1px;
+    margin: 1px;
+    align-content: center;
+    font-size: 15px;
+
+}
+
+.material-symbols-outlined {
+  /* como rayos cambiar el tamaño */
+  /* font-size: 34px;  */
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.lupa label .material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 100,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.acciones {
+    align-items: center;
+    justify-content: center;
+}
+
+.acciones button{
+    padding: 3px;
+    font-size: 14px;
+    font-weight: 300;
+    width: 7vw;
+    height: 35px;
+    margin: 25px;
+    margin-left: px;
+    border-radius: 5px;
+}
+
+.acciones button:hover {
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+
+footer a, h5 {
+    font-size: 14px;
+    font-weight: 300;
+    margin: 15px;
+    padding-left: 16px;
+}
+
+div h5 {
+    display: flex;
+    align-items: flex-start;
+    font-size: 15px;
+    margin-bottom: 15px;
+    
+}
+
+#GS {
+    margin-right: 3px;
+}
+
+#IFL {
+    margin-left: 3px;
+}
+
+footer {
+    width: 100%;
+    display: inline;
+    justify-content: space-between;
+    background-color: rgb(240,240,240);
+    align-items: center;
+}
+
+
+nav[aria-label="menu_nosotros"] {
+    display: flex;
+    align-items: center;
+    float: left;
+    padding: auto;
+}
+
+nav[aria-label="menu_terminos_condiciones"] {
+    display: flex;
+    justify-content: end;
+    float: right;
+    justify-content: space-around;    
+    padding: auto;
+    margin-right: 25px;
+}
+
+.last-section {
+    
+    border-top: 1px solid  	rgb(211,211,211);
+
+}
